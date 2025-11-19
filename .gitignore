@@ -1,0 +1,18 @@
+# Build artifacts
+*.bin
+*.log
+log-*.txt
+u-boot-2016/arch/arm/dts/dtbtable.S
+u-boot-2016/httpd/fsdata.c
+u-boot-2016/scripts_mbn/__pycache__/
+
+# U-Boot build artifacts
+u-boot-2016/*.o
+u-boot-2016/*.a
+u-boot-2016/*.s
+u-boot-2016/*.su
+u-boot-2016/.config
+u-boot-2016/include/config
+u-boot-2016/include/generated
+u-boot-2016/u-boot*
+!u-boot-2016/

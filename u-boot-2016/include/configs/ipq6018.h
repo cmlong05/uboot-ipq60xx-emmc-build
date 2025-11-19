@@ -208,6 +208,13 @@ extern loff_t board_env_size;
 #define CONFIG_CMD_UBI
 
 /*
+ * Filesystem Support
+ */
+#define CONFIG_FS_EXT4
+#define CONFIG_CMD_EXT2
+#define CONFIG_CMD_EXT4
+
+/*
  * NAND Flash Configs
  */
 
